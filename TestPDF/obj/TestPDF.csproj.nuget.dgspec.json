@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/TestPDF.csproj": {}
+  },
+  "projects": {
+    "/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/TestPDF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/TestPDF.csproj",
+        "projectName": "TestPDF",
+        "projectPath": "/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/TestPDF.csproj",
+        "packagesPath": "/Users/francescosaf/.nuget/packages/",
+        "outputPath": "/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/francescosaf/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "ObjectDumper.NET": {
+              "target": "Package",
+              "version": "[2.5.20033.1, )"
+            },
+            "PDFTron.Android": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "PDFTron.Android.Tools": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Xamarin.Android.Support.Annotations": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.AndroidX.Browser": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.AndroidX.Legacy.Support.V4": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

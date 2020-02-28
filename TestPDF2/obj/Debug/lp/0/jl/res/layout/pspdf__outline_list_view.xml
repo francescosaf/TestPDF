@@ -1,0 +1,12 @@
+<!--
+  ~ pspdf__outline_recycler_view.xml
+  ~
+  ~   PSPDFKit
+  ~
+  ~   Copyright © 2017-2019 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  --><FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><androidx.recyclerview.widget.RecyclerView android:id="@+id/pspdf__outline_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scrollbars="vertical" /><ProgressBar android:id="@+id/pspdf__outline_progress" style="?android:progressBarStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:visibility="invisible" android:layout_gravity="center" /></FrameLayout>

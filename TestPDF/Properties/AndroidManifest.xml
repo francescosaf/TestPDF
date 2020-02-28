@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.testpdf">
+	<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28" />
+	<application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:largeHeap="true" android:usesCleartextTraffic="true">
+		<!-- Add license key in meta-data tag here. This should be inside the application tag. -->
+		<meta-data android:name="pdftron_license_key" android:value="INSERT_COMMERCIAL_LICENSE_KEY_HERE_AFTER_PURCHASE" />
+		<!-- Document viewer activity declaration-->
+		<activity android:name="com.pdftron.pdf.controls.DocumentActivity" android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize" android:windowSoftInputMode="adjustPan" android:theme="@style/CustomAppTheme" />
+	</application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.RECORD_AUDIO" />
+</manifest>

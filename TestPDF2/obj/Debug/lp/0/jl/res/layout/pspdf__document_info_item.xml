@@ -1,0 +1,8 @@
+<!--
+  ~   Copyright © 2018-2019 PSPDFKit GmbH. All rights reserved.
+  ~
+  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
+  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
+  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  ~   This notice may not be removed from this file.
+  --><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"><TextView android:id="@+id/pspdf__document_info_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pspdf__document_info_item_title_and_value_spacing" android:textColor="@color/pspdf__document_info_item_title_text_color" android:textSize="@dimen/pspdf__document_info_item_title_text_size" tools:text="Document title" /><EditText android:id="@+id/pspdf__document_info_item_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-12dp" android:textColor="@color/pspdf__document_info_item_value_text_color" android:textColorHint="@color/pspdf__document_info_item_value_hint_text_color" android:textSize="@dimen/pspdf__document_info_item_value_text_size" android:layout_marginStart="-4dp" tools:text="Guides-v4" /></LinearLayout>
