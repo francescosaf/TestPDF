@@ -1,1 +1,0 @@
-<shape android:shape="oval" xmlns:android="http://schemas.android.com/apk/res/android"><!-- The color will be changed to what the color swatch is. White is default. --><solid android:color="@android:color/white" /><stroke android:color="@color/tools_gray" android:width="@dimen/padding_xxsmall" /></shape>

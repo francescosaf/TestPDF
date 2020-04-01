@@ -1,8 +1,0 @@
-<!--
-  ~   Copyright © 2017-2020 PSPDFKit GmbH. All rights reserved.
-  ~
-  ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
-  ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
-  ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
-  ~   This notice may not be removed from this file.
-  --><TextView android:id="@+id/pspdf__signature_list_signer_item_textview" android:layout_width="match_parent" android:layout_height="56dp" android:background="?selectableItemBackground" android:drawablePadding="24dp" android:drawableStart="@drawable/pspdf__ic_certificate_valid" android:ellipsize="end" android:gravity="center_vertical|start" android:paddingEnd="16dp" android:paddingStart="24dp" android:singleLine="true" tools:text="Johny Appleseed The Creator of Everything, The Multiverse and more." xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" />
