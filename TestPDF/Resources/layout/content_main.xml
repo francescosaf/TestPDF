@@ -17,9 +17,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonPSPDKit"
-        android:text="PSPD KIT"
+        android:id="@+id/buttonPDFTronAct"
+        android:text="PDF Tron Activity"
         />
 
-
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPDFTronFrag"
+        android:text="PDF Tron Frag"
+        />
 </LinearLayout>

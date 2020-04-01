@@ -1,11 +1,9 @@
-﻿<Properties StartupConfiguration="{3C2AB673-19AF-4171-89A3-BA6575589A6D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestPDF/PdfTronActivity.cs">
+﻿<Properties StartupConfiguration="{47D44C00-1AD6-4C30-AA3A-B6786E14A442}|Default">
+  <MonoDevelop.Ide.ItemProperties.TestPDF4 PreferredExecutionTarget="Android.3.4_WQVGA_API_29" />
+  <MonoDevelop.Ide.ItemProperties.TestPDF3 PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.25F1DD1C-B053-43BA-BBEA-FE71FEA7CAD9" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestPDF/MainActivity.cs">
     <Files>
-      <File FileName="../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="2613" Column="3" />
-      <File FileName="TestPDF2/Properties/AndroidManifest.xml" />
-      <File FileName="TestPDF2/MainActivity.cs" Line="49" Column="41" />
-      <File FileName="TestPDF2/EmptyClass.cs" Line="16" Column="33" />
-      <File FileName="TestPDF/PdfTronActivity.cs" Line="35" Column="1" />
+      <File FileName="TestPDF/PdfTronActivity.cs" Line="1" Column="1" />
       <File FileName="TestPDF/MainActivity.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -13,16 +11,25 @@
         <State name="__root__">
           <Node name="TestPDF" expanded="True">
             <Node name="TestPDF" expanded="True">
+              <Node name="Packages" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="layout" expanded="True" />
+                <Node name="raw" expanded="True" />
+                <Node name="values" expanded="True" />
+              </Node>
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+            <Node name="TestPDF2" expanded="True">
               <Node name="Resources" expanded="True">
                 <Node name="layout" expanded="True" />
                 <Node name="raw" expanded="True" />
                 <Node name="values" expanded="True" />
               </Node>
-              <Node name="PdfTronActivity.cs" selected="True" />
             </Node>
-            <Node name="TestPDF2" expanded="True">
-              <Node name="Packages" expanded="True" />
+            <Node name="TestPDF5" expanded="True">
+              <Node name="Assets" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -32,17 +39,10 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.TestPDF2 AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Pixel_2_API_28" />
+  <MonoDevelop.Ide.ItemProperties.TestPDF5 AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Pixel_3_API_29" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF2/MainActivity.cs" relfile="TestPDF2/MainActivity.cs" line="36" column="1" />
-      <Breakpoint file="/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF2/MainActivity.cs" relfile="TestPDF2/MainActivity.cs" line="75" column="1" />
-      <Breakpoint file="/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF2/MainActivity.cs" relfile="TestPDF2/MainActivity.cs" line="77" column="1" />
-      <Breakpoint file="/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF2/MainActivity.cs" relfile="TestPDF2/MainActivity.cs" line="83" column="1" />
-      <Breakpoint file="/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF2/MainActivity.cs" relfile="TestPDF2/MainActivity.cs" line="34" column="1" />
-      <Breakpoint file="/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF2/DocumentHelper.cs" relfile="TestPDF2/DocumentHelper.cs" line="16" column="1" />
-      <Breakpoint file="/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF2/DocumentHelper.cs" relfile="TestPDF2/DocumentHelper.cs" line="18" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TestPDF AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Pixel_2_API_28" />
+  <MonoDevelop.Ide.ItemProperties.TestPDF AndroidDesignerPreferredTheme="CustomAppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Pixel_2_API_28" />
 </Properties>

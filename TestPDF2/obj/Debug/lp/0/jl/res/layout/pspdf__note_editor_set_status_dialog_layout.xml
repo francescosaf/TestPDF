@@ -1,8 +1,8 @@
 <!--
-  ~   Copyright © 2018-2019 PSPDFKit GmbH. All rights reserved.
+  ~   Copyright © 2018-2020 PSPDFKit GmbH. All rights reserved.
   ~
   ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
   ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
   ~   UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
   ~   This notice may not be removed from this file.
-  --><LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:paddingBottom="12dp" android:paddingEnd="20dp" android:paddingStart="20dp" android:paddingTop="12dp" xmlns:android="http://schemas.android.com/apk/res/android"><com.pspdfkit.framework.annotations.note.ui.NoteReplyStatusDialogView android:id="@+id/pspdf__note_reply_status_dialog_list_view" android:layout_width="match_parent" android:layout_height="match_parent" /></LinearLayout>
+  --><LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:paddingBottom="12dp" android:paddingEnd="20dp" android:paddingStart="20dp" android:paddingTop="12dp" xmlns:android="http://schemas.android.com/apk/res/android"><com.pspdfkit.internal.annotations.note.ui.NoteReplyStatusDialogView android:id="@+id/pspdf__note_reply_status_dialog_list_view" android:layout_width="match_parent" android:layout_height="match_parent" /></LinearLayout>

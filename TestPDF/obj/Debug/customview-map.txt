@@ -28,8 +28,10 @@ androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/Tes
 androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_annotation_toolbar_expanded_layout.xml
 androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_edit_toolbar_collapsed_layout.xml
 androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_edit_toolbar_expanded_layout.xml
+androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fill_and_sign_toolbar.xml
 androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_form_toolbar.xml
 androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fragment_tabbed_pdfviewctrl_tab.xml
+androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_prepare_form_toolbar.xml
 androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_thumbnail_slider.xml
 androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/dialog_edit_listview_item.xml
 androidx.appcompat.widget.AppCompatImageButton;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_add_favorite_color.xml
@@ -96,10 +98,12 @@ androidx.cardview.widget.CardView;/Users/francescosaf/Workspace/TestPrj/TestPDF/
 androidx.cardview.widget.CardView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/view_page_indicator.xml
 androidx.constraintlayout.widget.Barrier;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/dialog_page_label.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/activity_document.xml
+androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fill_and_sign_toolbar.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_find_text_overlay.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_form_toolbar.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fragment_tabbed_sub_overlay.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fragment_tabbed_sub_pdfviewctrl.xml
+androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_prepare_form_toolbar.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_thumbnail_slider_preview.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/dialog_calibrate.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/dialog_edit_listview_item.xml
@@ -116,6 +120,7 @@ androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/tools_dialog_digital_signature_user_input.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/view_pdf_layer_item.xml
 androidx.constraintlayout.widget.ConstraintLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/view_signature_info.xml
+androidx.constraintlayout.widget.ConstraintLayout;obj/Debug/res/layout/pdftronfragment.xml
 androidx.constraintlayout.widget.ConstraintLayout;obj/Debug/res/layout/pdftronlayout.xml
 androidx.constraintlayout.widget.Guideline;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/tools_dialog_digital_signature_user_input.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_annot_style_container.xml
@@ -171,7 +176,7 @@ Button;obj/Debug/res/layout/content_main.xml
 Button;obj/Debug/res/layout/pdftronactivity.xml
 Button;obj/Debug/res/layout/pdftronlayout.xml
 cache-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/xml/provider_paths.xml
-cache-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/59/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+cache-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/60/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 CheckBox;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/alert_dialog_with_checkbox.xml
 CheckBox;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fragment_tabbed_sub_password_view.xml
 CheckBox;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/dialog_print_annotations_summary.xml
@@ -234,8 +239,8 @@ com.pdftron.pdf.utils.ExpandableGridView;/Users/francescosaf/Workspace/TestPrj/T
 com.pdftron.pdf.utils.ExpandableGridView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_annotation_styles.xml
 com.pdftron.pdf.utils.SegmentedGroup;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_custom_color_mode_colorpicker_page.xml
 com.pdftron.pdf.widget.AnnotDrawingView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/annot_view_layout.xml
-com.pdftron.pdf.widget.AnnotTextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/annot_view_layout.xml
 com.pdftron.pdf.widget.AppBarLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fragment_tabbed_pdfviewctrl.xml
+com.pdftron.pdf.widget.AutoScrollEditText;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/annot_view_layout.xml
 com.pdftron.pdf.widget.AutoScrollEditText;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/widget_auto_scroll_editor.xml
 com.pdftron.pdf.widget.CheckableRelativeLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/listview_item_view_mode_picker_list.xml
 com.pdftron.pdf.widget.ColorHuePickerWheel;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/color_picker_layout_advanced.xml
@@ -302,9 +307,6 @@ corners;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/
 corners;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-v14/radio_unchecked_left.xml
 corners;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-v14/radio_unchecked_right.xml
 corners;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-v21/annot_property_preview_bg.xml
-crc6414b77c8866d6e602.PDFViewCtrl;obj/Debug/res/layout/pdftronactivity.xml
-crc6414b77c8866d6e602.PDFViewCtrl;obj/Debug/res/layout/pdftronlayout.xml
-crc6457f16c8bcba3b38e.AnnotationToolbar;obj/Debug/res/layout/pdftronlayout.xml
 declare-styleable;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/0/jl/res/values/values.xml
 declare-styleable;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/2/jl/res/values/values.xml
 declare-styleable;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/values/values.xml
@@ -328,10 +330,10 @@ EditText;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl
 enum;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/0/jl/res/values/values.xml
 enum;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/2/jl/res/values/values.xml
 external-cache-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/xml/provider_paths.xml
-external-cache-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/59/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/60/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 external-files-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/xml/provider_paths.xml
 external-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/xml/provider_paths.xml
-external-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/59/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+external-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/60/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 files-path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/xml/provider_paths.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/ic_launcher_round.xml
@@ -339,6 +341,7 @@ FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/annot_view_layout.xml
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/color_preference_thumbnail.xml
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/color_preference_thumbnail_disabled.xml
+FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_form_toolbar.xml
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fragment_tabbed_sub_overlay.xml
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fragment_thumbnails_view.xml
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_rich_media_layout.xml
@@ -357,6 +360,7 @@ FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout-land/view_colorpicker.xml
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout-sw480dp-land-v13/fragment_user_crop_dialog.xml
 FrameLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout-sw480dp-port-v13/fragment_user_crop_dialog.xml
+FrameLayout;obj/Debug/res/layout/pdftronfragment.xml
 gradient;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/controls_thumbnail_slider_scrubberview_bg.xml
 gradient;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/controls_toolbar_dropshadow.xml
 gradient;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/seek_thumb.xml
@@ -393,6 +397,7 @@ ImageView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/2/j
 ImageView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_fragment_tabbed_sub_password_view.xml
 ImageView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/tools_dialog_digital_signature_user_input.xml
 include;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_annotation_toolbar_layout.xml
+include;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_form_toolbar.xml
 include;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_menu_editor_dialog.xml
 include;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_sound_create_dialog.xml
 include;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_user_crop_dialog.xml
@@ -575,7 +580,6 @@ LinearLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/
 LinearLayout;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout-sw480dp-port-v13/fragment_user_crop_dialog.xml
 LinearLayout;obj/Debug/res/layout/content_main.xml
 LinearLayout;obj/Debug/res/layout/pdftronactivity.xml
-LinearLayout;obj/Debug/res/layout/pspdfkitlayout.xml
 ListView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/controls_search_results.xml
 ListView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_portfolio_dialog.xml
 ListView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_user_crop_selection_dialog.xml
@@ -710,10 +714,17 @@ path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_copy_black_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_copy_white_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_custom_color_white_24dp.xml
+path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_date_range_24px.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_delete_black_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_delete_white_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_download.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_edit_black_24dp.xml
+path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign.xml
+path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_checkmark.xml
+path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_crossmark.xml
+path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_dot.xml
+path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_resizing.xml
+path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_spacing_text.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_filter.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_font_size_black_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_format_align_center_24px.xml
@@ -746,6 +757,7 @@ path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_print_black_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_public_black_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_radio_button_checked_black_24dp.xml
+path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_radio_dot_24px.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_redo_black_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_redo_white_24dp.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_remove_white_24dp.xml
@@ -784,7 +796,7 @@ path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/user_crop.xml
 path;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-ldrtl-v17/ic_arrow_back_white_24dp.xml
 paths;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/xml/provider_paths.xml
-paths;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/59/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+paths;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/60/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 pdftron.pdf.controls.AnnotationToolbar;obj/Debug/res/layout/pdftronlayout.xml
 pdftron.pdf.PDFViewCtrl;obj/Debug/res/layout/pdftronactivity.xml
 pdftron.pdf.PDFViewCtrl;obj/Debug/res/layout/pdftronlayout.xml
@@ -1002,6 +1014,7 @@ shape;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/re
 shape;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-v21/annot_property_preview_bg.xml
 shape;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-v21/annot_style_view_background.xml
 shape;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-v21/color_picker_view_background.xml
+shape;obj/Debug/res/drawable/signature_field_border.xml
 size;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/controls_toolbar_dropshadow.xml
 size;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/fab_background.xml
 size;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/oval_stroke_preview.xml
@@ -1130,6 +1143,7 @@ stroke;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/r
 stroke;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-large-v4/color_picker_view_background.xml
 stroke;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-v14/radio_unchecked_left.xml
 stroke;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable-v14/radio_unchecked_right.xml
+stroke;obj/Debug/res/drawable/signature_field_border.xml
 style;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/2/jl/res/values/values.xml
 style;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/2/jl/res/values-v11/values-v11.xml
 style;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/2/jl/res/values-v14/values-v14.xml
@@ -1165,7 +1179,6 @@ TextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl
 TextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/dialog_page_label.xml
 TextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/dialog_print_annotations_summary.xml
 TextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/dialog_undo_redo.xml
-TextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fonts_row_item.xml
 TextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_add_favorite_color.xml
 TextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_add_page_dialog.xml
 TextView;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/layout/fragment_create_custom_rubber_stamp_dialog.xml
@@ -1308,10 +1321,17 @@ vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/r
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_copy_black_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_copy_white_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_custom_color_white_24dp.xml
+vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_date_range_24px.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_delete_black_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_delete_white_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_download.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_edit_black_24dp.xml
+vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign.xml
+vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_checkmark.xml
+vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_crossmark.xml
+vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_dot.xml
+vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_resizing.xml
+vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_fill_and_sign_spacing_text.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_filter.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_font_size_black_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_format_align_center_24px.xml
@@ -1344,6 +1364,7 @@ vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/r
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_print_black_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_public_black_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_radio_button_checked_black_24dp.xml
+vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_radio_dot_24px.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_redo_black_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_redo_white_24dp.xml
 vector;/Users/francescosaf/Workspace/TestPrj/TestPDF/TestPDF/obj/Debug/lp/4/jl/res/drawable/ic_remove_white_24dp.xml

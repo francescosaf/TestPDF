@@ -16,7 +16,7 @@ using pdftron.SDF;
 
 namespace TestPDF
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/CustomAppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
 
@@ -40,6 +40,18 @@ namespace TestPDF
                 StartActivity(intent);
             };
 
+            FindViewById<Button>(Resource.Id.buttonPDFTronAct).Click += async (_, e) =>
+            {
+                var config = new pdftron.PDF.Config.ViewerConfig.Builder().OpenUrlCachePath(this.CacheDir.AbsolutePath).Build();
+                var assetUri = GetFile();
+                pdftron.PDF.Controls.DocumentActivity.OpenDocument(this, assetUri, config);
+            };
+
+            FindViewById<Button>(Resource.Id.buttonPDFTronFrag).Click += async (_, e) =>
+            {
+                var intent = new Intent(this, typeof(PdfTronFrag));
+                StartActivity(intent);
+            };
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;

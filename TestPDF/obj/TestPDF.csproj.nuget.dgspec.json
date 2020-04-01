@@ -18,19 +18,19 @@
           "/Users/francescosaf/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "monoandroid90"
+          "monoandroid10.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "monoandroid90": {
+          "monoandroid10.0": {
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "monoandroid90": {
+        "monoandroid10.0": {
           "dependencies": {
             "ObjectDumper.NET": {
               "target": "Package",
@@ -38,11 +38,11 @@
             },
             "PDFTron.Android": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.1.0, )"
             },
             "PDFTron.Android.Tools": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.1.0, )"
             },
             "Xamarin.Android.Support.Annotations": {
               "target": "Package",

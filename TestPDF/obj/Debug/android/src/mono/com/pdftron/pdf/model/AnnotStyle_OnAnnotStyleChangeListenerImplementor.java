@@ -19,6 +19,7 @@ public class AnnotStyle_OnAnnotStyleChangeListenerImplementor
 			"n_onChangeAnnotTextColor:(I)V:GetOnChangeAnnotTextColor_IHandler:pdftron.PDF.Model.AnnotStyle/IOnAnnotStyleChangeListenerInvoker, PDFViewCtrlTools\n" +
 			"n_onChangeAnnotTextSize:(FZ)V:GetOnChangeAnnotTextSize_FZHandler:pdftron.PDF.Model.AnnotStyle/IOnAnnotStyleChangeListenerInvoker, PDFViewCtrlTools\n" +
 			"n_onChangeAnnotThickness:(FZ)V:GetOnChangeAnnotThickness_FZHandler:pdftron.PDF.Model.AnnotStyle/IOnAnnotStyleChangeListenerInvoker, PDFViewCtrlTools\n" +
+			"n_onChangeDateFormat:(Ljava/lang/String;)V:GetOnChangeDateFormat_Ljava_lang_String_Handler:pdftron.PDF.Model.AnnotStyle/IOnAnnotStyleChangeListenerInvoker, PDFViewCtrlTools\n" +
 			"n_onChangeOverlayText:(Ljava/lang/String;)V:GetOnChangeOverlayText_Ljava_lang_String_Handler:pdftron.PDF.Model.AnnotStyle/IOnAnnotStyleChangeListenerInvoker, PDFViewCtrlTools\n" +
 			"n_onChangeRichContentEnabled:(Z)V:GetOnChangeRichContentEnabled_ZHandler:pdftron.PDF.Model.AnnotStyle/IOnAnnotStyleChangeListenerInvoker, PDFViewCtrlTools\n" +
 			"n_onChangeRulerProperty:(Lcom/pdftron/pdf/model/RulerItem;)V:GetOnChangeRulerProperty_Lcom_pdftron_pdf_model_RulerItem_Handler:pdftron.PDF.Model.AnnotStyle/IOnAnnotStyleChangeListenerInvoker, PDFViewCtrlTools\n" +
@@ -98,6 +99,14 @@ public class AnnotStyle_OnAnnotStyleChangeListenerImplementor
 	}
 
 	private native void n_onChangeAnnotThickness (float p0, boolean p1);
+
+
+	public void onChangeDateFormat (java.lang.String p0)
+	{
+		n_onChangeDateFormat (p0);
+	}
+
+	private native void n_onChangeDateFormat (java.lang.String p0);
 
 
 	public void onChangeOverlayText (java.lang.String p0)

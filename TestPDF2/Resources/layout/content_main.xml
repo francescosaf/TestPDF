@@ -11,6 +11,19 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonPSPDKit"
-        android:text="PSPD KIT"/>
+        android:id="@+id/button1"
+        android:text="PSPDF KIT"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="PSPDF KIT Activity"
+        />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="PSPDF KIT WW"
+        />
 </LinearLayout>

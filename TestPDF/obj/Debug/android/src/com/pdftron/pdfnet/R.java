@@ -8,11 +8,11 @@ package com.pdftron.pdfnet;
 
 public final class R {
 	public static final class raw {
-		public static final int pdfnet = 0x7f0f0001;
-		public static final int pdftron_layout_resources = 0x7f0f0002;
-		public static final int pdftron_smart_substitution = 0x7f0f0003;
+		public static final int pdfnet = 0x7f100001;
+		public static final int pdftron_layout_resources = 0x7f100002;
+		public static final int pdftron_smart_substitution = 0x7f100003;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f100079;
+		public static final int app_name = 0x7f11007a;
 	}
 }

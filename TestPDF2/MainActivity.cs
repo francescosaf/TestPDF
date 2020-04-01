@@ -1,12 +1,15 @@
 ﻿using System;
 using System.IO;
 using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.Design.Widget;
-using Android.Support.V7.App;
+
 using Android.Views;
 using Android.Widget;
+using AndroidX.AppCompat.App;
+using Google.Android.Material.FloatingActionButton;
+using Google.Android.Material.Snackbar;
 using Java.IO;
 using PSPDFKit;
 using PSPDFKit.Configuration.Activity;
@@ -34,14 +37,30 @@ namespace TestPDF2
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-
-            Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+            PSPDFKitGlobal.Initialize(this, "vw3PgdS-mSyLEmFwHD4PhRhf5nKFqW3qPyPBgy5IVZ5aCLIYb9lbhokQpwGLr0YzWD2gGwSefDZetMB9R-KpY4xVeO-6p-kvqfS3O3UGNYVqy4D3QL8GXpdPNzAfmHWf-jsJns5Xvr-pakJRiNYeC4DKkgFXudIvz85kCMOHo5S--1meRiRTKBSBHI0lq6Wnw7xsfiZ9Is1EnZI80SvkEZEttXD2I9EUTPKfX2SdBt458hZSGhDfaKSPodm8_WTaeXhBbEbRnAapNFYdNxP3aapR_whutWzbJ7iO3jHWsCDodrmIz0JRONLTxbOgEx7TPKFV2JIT9_cZmF3FPb9lTGnayBl1n1mDJwlditeuc_kf9sNxZSqIlOjuSDUBFyTJy-u9vjBQ5dypammhXYaVuwNBV3Myn6tqq_LOI04JxpW7BKURI4nwtd1XsaefXSD0");
+            AndroidX.AppCompat.Widget.Toolbar toolbar = FindViewById<AndroidX.AppCompat.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
 
-            //var docUri = Android.Net.Uri.Parse(Android.Content.ContentResolver.SchemeAndroidResource + File.PathSeparator + File.Separator + File.Separator + PackageName + "/raw/" + sampleDoc);
-            var docUri = OpenResouceFile();
-            //Resources.OpenRawResource(Resource.Raw.NPMA33);
-            ShowPdfDocument(docUri);
+
+            FindViewById<Button>(Resource.Id.button2).Click += async (_, e) =>
+            {
+                var docUri = OpenResouceFile();
+                ShowPdfDocument(docUri);
+
+            };
+            FindViewById<Button>(Resource.Id.button1).Click += async (_, e) =>
+            {
+                var intent = new Intent(this, typeof(PSPdfKit));
+                StartActivity(intent);
+
+            };
+
+            FindViewById<Button>(Resource.Id.button3).Click += async (_, e) =>
+            {
+                var intent = new Intent(this, typeof(PSPdfKit2));
+                StartActivity(intent);
+
+            };
 
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;

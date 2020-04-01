@@ -99,10 +99,11 @@ public class MonoPackageManager_Resources {
 		"Xamarin.AndroidX.VectorDrawable.dll",
 		"Xamarin.AndroidX.VersionedParcelable.dll",
 		"Xamarin.AndroidX.ViewPager.dll",
+		"Xamarin.AndroidX.ViewPager2.dll",
 		"Xamarin.Essentials.dll",
 		"Xamarin.Google.Android.Material.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};
-	public static String ApiPackageName = "Mono.Android.Platform.ApiLevel_28";
+	public static String ApiPackageName = "Mono.Android.Platform.ApiLevel_29";
 }

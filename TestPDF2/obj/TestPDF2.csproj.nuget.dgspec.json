@@ -34,23 +34,27 @@
           "dependencies": {
             "PSPDFKit.Android": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[6.2.0.1, )"
             },
-            "Xamarin.Android.Support.Core.Utils": {
+            "Xamarin.AndroidX.Browser": {
               "target": "Package",
-              "version": "[28.0.0.3, )"
+              "version": "[1.2.0, )"
             },
-            "Xamarin.Android.Support.CustomTabs": {
+            "Xamarin.AndroidX.Legacy.Support.Core.Utils": {
               "target": "Package",
-              "version": "[28.0.0.3, )"
+              "version": "[1.0.0, )"
             },
-            "Xamarin.Android.Support.Design": {
+            "Xamarin.AndroidX.Migration": {
               "target": "Package",
-              "version": "[28.0.0.3, )"
+              "version": "[1.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.5.0, )"
+              "version": "[1.5.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.1.0-rc3, )"
             }
           }
         }

@@ -1,12 +1,12 @@
-# Keep PSPDFKit framework classes – they are already proguarded by default.
--keep class com.pspdfkit.framework.** { *; }
+# Keep PSPDFKit internal classes – they are already proguarded by default.
+-keep class com.pspdfkit.internal.** { *; }
 -keep class com.pspdfkit.datastructures.Range { *; }
 -keep class com.pspdfkit.exceptions.** { *; }
 -keep class com.pspdfkit.undo.exceptions** { *; }
 -keep class com.pspdfkit.utils.** { *; }
 
-# Keep PSPDFKit Instant framework classes – they are already proguarded by default.
--keep class com.pspdfkit.instant.framework.** { *; }
+# Keep PSPDFKit Instant internal classes – they are already proguarded by default.
+-keep class com.pspdfkit.instant.internal.** { *; }
 -keep class com.pspdfkit.instant.exceptions.** { *; }
 -keep class com.pspdfkit.instant.ui.** { *; }
 

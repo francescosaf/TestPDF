@@ -4,7 +4,7 @@
   ~
   ~   PSPDFKit
   ~
-  ~   Copyright © 2014-2019 PSPDFKit GmbH. All rights reserved.
+  ~   Copyright © 2014-2020 PSPDFKit GmbH. All rights reserved.
   ~
   ~   THIS SOURCE CODE AND ANY ACCOMPANYING DOCUMENTATION ARE PROTECTED BY INTERNATIONAL COPYRIGHT LAW
   ~   AND MAY NOT BE RESOLD OR REDISTRIBUTED. USAGE IS BOUND TO THE PSPDFKIT LICENSE AGREEMENT.
@@ -14,7 +14,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.pspdfkit"
-    android:versionName="6.1.1" >
+    android:versionName="6.2.0" >
 
     <uses-sdk
         android:minSdkVersion="19"
