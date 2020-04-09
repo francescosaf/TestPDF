@@ -44,6 +44,7 @@ Thumbs.db
 **/*.Droid/**/[Rr]esource.[Dd]esigner.cs
 **/*.Android/**/[Rr]esource.[Dd]esigner.cs
 **/Android/**/[Rr]esource.[Dd]esigner.cs
+**/Test.*/**/[Rr]esource.[Dd]esigner.cs
 .vs/*
 .idea/*
 *.swp

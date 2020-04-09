@@ -6,4 +6,5 @@
      <color name="colorAccent1">#ee3498db</color>
     <color name="colorRed">#FF0000</color>
     <color name="white2">#ffffff</color>
+    <color name="colorRedtransparency">#AAFF0000</color>
 </resources>

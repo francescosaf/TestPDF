@@ -53,6 +53,13 @@ namespace TestPDF
                 StartActivity(intent);
             };
 
+
+            FindViewById<Button>(Resource.Id.buttonPDFTron3).Click += async (_, e) =>
+            {
+                var intent = new Intent(this, typeof(PdfTronAct2));
+                StartActivity(intent);
+            };
+
             FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
         }

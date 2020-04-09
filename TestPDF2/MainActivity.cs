@@ -37,7 +37,7 @@ namespace TestPDF2
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             SetContentView(Resource.Layout.activity_main);
-            PSPDFKitGlobal.Initialize(this, "vw3PgdS-mSyLEmFwHD4PhRhf5nKFqW3qPyPBgy5IVZ5aCLIYb9lbhokQpwGLr0YzWD2gGwSefDZetMB9R-KpY4xVeO-6p-kvqfS3O3UGNYVqy4D3QL8GXpdPNzAfmHWf-jsJns5Xvr-pakJRiNYeC4DKkgFXudIvz85kCMOHo5S--1meRiRTKBSBHI0lq6Wnw7xsfiZ9Is1EnZI80SvkEZEttXD2I9EUTPKfX2SdBt458hZSGhDfaKSPodm8_WTaeXhBbEbRnAapNFYdNxP3aapR_whutWzbJ7iO3jHWsCDodrmIz0JRONLTxbOgEx7TPKFV2JIT9_cZmF3FPb9lTGnayBl1n1mDJwlditeuc_kf9sNxZSqIlOjuSDUBFyTJy-u9vjBQ5dypammhXYaVuwNBV3Myn6tqq_LOI04JxpW7BKURI4nwtd1XsaefXSD0");
+            PSPDFKitGlobal.Initialize(this, "Dz3R9GOESySyg8n3I2kUH3tWEInA4X9FRXgy1pUhjEgHmB6DWQF6vlAw6zvSrP-raYmaknQx6npkvZ7pniFPsCnSJ7hfgo3qTeXnYSA1sOwGo3KWsZdNUrCQLPOqDZYsz8APNfELsFgT0MV6nkUjMuC0Vw9T2KUDO6VSKaGvMhFfqB5O5679r4kon9-khR_osGkJoK18zjNu3zaX6eReWikp7OT5_TvQemeEKKKQyLSPHJaV1FmpbGxZzGZiMrZtr3_-S9H_b69X6NueR_9B7MOt6sMj0rP7CxrPDd-8PzrsBNeXHFlVTx90QOok3-0XwLcBthDN6R_3K_s3dpwGYfGh9ksEK6xvuGsbnnOc9D92SEhLMAqtkHUYe5D06s7TH7l7IwCbgLbhrv8bVyc_y0sHNVdFpgvsTLRWzq9g6Ucjak6NPa8Z69gaR7I6lj5L");
             AndroidX.AppCompat.Widget.Toolbar toolbar = FindViewById<AndroidX.AppCompat.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
 

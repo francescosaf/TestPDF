@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections.Generic;
 using System.IO;
 
 using Android.App;
@@ -9,6 +10,7 @@ using Android.Graphics.Drawables;
 using Android.OS;
 using Android.Widget;
 using AndroidX.AppCompat.App;
+using Java.Lang;
 using pdftron.Common;
 using pdftron.PDF;
 using pdftron.PDF.Config;
@@ -21,7 +23,7 @@ using Path = System.IO.Path;
 namespace TestPDF
 {
     [Activity(Label = "PdfTronActivity")]
-    public class PdfTronActivity : AppCompatActivity, ToolManager.IBasicAnnotationListener
+    public class PdfTronActivity : AppCompatActivity, ToolManager.IBasicAnnotationListener, ToolManager.IAnnotationModificationListener
     {
         private pdftron.PDF.PDFViewCtrl mPdfViewCtrl;
         private pdftron.PDF.PDFDoc mPdfDoc;
@@ -77,8 +79,59 @@ namespace TestPDF
 
             mToolManager = ToolManagerBuilder.From().Build(this, mPdfViewCtrl);
             mToolManager.SetBasicAnnotationListener(this);
+            mToolManager.AddAnnotationModificationListener(this);
 
 
+            mToolManager.AnnotationsModified += (sender, e) =>
+            {
+                System.Diagnostics.Debug.WriteLine("---.----.-----");
+                var extra = e.Extra;
+                /*
+                    For example, when checkbox value has been changed, this code will print:
+                    calling method: handleWidget
+                    property: OTHER
+                */
+                if (extra != null && extra.ContainsKey(Tool.MethodFrom))
+                {
+                    string methodCalling = extra.GetString(Tool.MethodFrom);
+                    Console.WriteLine("AnnotationsModified calling method " + methodCalling);
+                    var property = pdftron.PDF.Model.AnnotationProperty.GetProperty(methodCalling);
+                    Console.WriteLine("AnnotationsModified property: " + property);
+                }
+
+                /*
+                    For example, when changed annotation opacity to 50%
+                    calling method: editOpacity
+                    property: OPACITY
+                    key: opacity
+                    value: 0.5
+                */
+                if (extra != null && extra.ContainsKey(Tool.Keys))
+                {
+                    string[] paramKeys = extra.GetStringArray(Tool.Keys);
+                    if (paramKeys != null)
+                    {
+                        foreach (var key in paramKeys)
+                        {
+                            Java.Lang.Object param = extra.Get(key);
+                            Console.WriteLine("AnnotationsModified key: " + key);
+                            Console.WriteLine("AnnotationsModified value: " + param.ToString());
+                        }
+                    }
+                }
+
+                // Do something with the annots
+                foreach (var item in e.Annots)
+                {
+                    var nativeAnnot = item.Key;
+                    var annot = TypeConvertHelper.ConvAnnotToManaged(nativeAnnot);
+                    if (annot != null && annot.IsValid())
+                    {
+                        Annot.Type type = annot.GetType();
+                        Console.WriteLine("AnnotationsModified: type: " + type);
+                    }
+                }
+            };
             /*
             mToolManager = pdftron.PDF.Config.ToolManagerBuilder.From()
                .SetEditInk(true)
@@ -108,7 +161,7 @@ namespace TestPDF
             //mAnnotationToolbar.Close();
         }
 
-        public void ViewFromResource(int resourceId, String fileName)
+        public void ViewFromResource(int resourceId, System.String fileName)
         {
             var file = Utils.CopyResourceToLocal(this, resourceId, fileName, ".pdf");
             mPdfDoc = new pdftron.PDF.PDFDoc(file.AbsolutePath);
@@ -211,10 +264,13 @@ namespace TestPDF
                  */
 
                 var annots = mPdfViewCtrl.GetAnnotationsOnPage(1);
+                int signatureBorderWidth = 9;
                 int x = 0;
                 foreach (var annot in annots)
                 {
-                    if (annot.Type == (int)Annot.Type.e_Widget)
+                    x++;
+                    if (x > 5) break;
+                    if (annot.Type == (int)pdftron.PDF.Annot.Type.e_Widget)
                     {
                         Widget w = new Widget(annot);
 
@@ -231,7 +287,7 @@ namespace TestPDF
                             fld.SetValue("John xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
                             System.Diagnostics.Debug.WriteLine("*****" + field_name + "*****" + fld.GetType());
 
-                            int signatureBorderWidth = 9;
+
                             Context context = mPdfViewCtrl.Context;
                             CustomRelativeLayout overlay = new CustomRelativeLayout(context);
                             GradientDrawable square_drawable = (GradientDrawable)mPdfViewCtrl.Context.Resources.GetDrawable(Resource.Drawable.signature_field_border);
@@ -240,9 +296,11 @@ namespace TestPDF
                             overlay.SetAnnot(mPdfViewCtrl, annot, 1);
                             //overlay.SetZoomWithParent(true);
                             mPdfViewCtrl.AddView(overlay);
-                            var colorPt1 = Utils.Color2ColorPt(Color.Blue);
+                            var colorPt1 = Utils.Color2ColorPt(Color.Cyan);
                             w.SetBackgroundColor(colorPt1, 3);
-                            //w.SetColor(colorPt1);
+                            //TypeConvertHelper.ConvAnnotToManaged(annot).GetSDFObj().Erase("AP");
+                            widget.GetSDFObj().Erase("AP");
+                            //annot2.GetSDFObj().Erase("AP");
                             w.RefreshAppearance();
                             mPdfViewCtrl.Update(annot, 1);
                         }
@@ -261,7 +319,9 @@ namespace TestPDF
                 //        Console.WriteLine("Field name: {0:s}", fld.GetName());
                 //    }
                 //}
-
+                var flds = mPdfDoc.GetField("NPMA-33-1-2");
+                System.Diagnostics.Debug.WriteLine($"{flds.GetName()}  {flds.GetValueAsString()}");
+                //Console.WriteLine("Field name: {0:s} {0:s}", flds.GetName(), flds.GetValueAsString());
                 /*
 
                 //FILLL
@@ -367,7 +427,15 @@ namespace TestPDF
         {
             try
             {
-                Widget w = new Widget(annot);
+                System.Diagnostics.Debug.WriteLine("ssssssss");
+                var annot2 = TypeConvertHelper.ConvAnnotToManaged(annot);
+
+                // var annotObjNum = annot2.GetSDFObj().GetObjNum();
+
+                pdftron.PDF.Annots.Widget widget = new pdftron.PDF.Annots.Widget(annot2);
+
+                Field fld = widget.GetField();
+                System.Diagnostics.Debug.WriteLine($"{fld.GetValueAsString()}");
                 // w.c
 
             }
@@ -381,7 +449,66 @@ namespace TestPDF
 
         public bool OnInterceptDialog(Android.App.AlertDialog dialog)
         {
-            throw new NotImplementedException();
+            System.Diagnostics.Debug.WriteLine("********");
+            return true;
+        }
+
+        public void AnnotationsCouldNotBeAdded(string errorMessage)
+        {
+            System.Diagnostics.Debug.WriteLine("********");
+        }
+
+        public void OnAnnotationsAdded(IDictionary<pdftronprivate.PDF.Annot, Integer> annots)
+        {
+            System.Diagnostics.Debug.WriteLine("********");
+        }
+
+        public void OnAnnotationsModified(IDictionary<pdftronprivate.PDF.Annot, Integer> annots, Bundle extra)
+        {
+            try
+            {
+                System.Diagnostics.Debug.WriteLine("OnAnnotationsModified ******************");
+                foreach (var annot in annots.Keys)
+                {
+                    System.Diagnostics.Debug.WriteLine("ssssssss");
+                    var annot2 = TypeConvertHelper.ConvAnnotToManaged(annot);
+
+                    // var annotObjNum = annot2.GetSDFObj().GetObjNum();
+
+                    pdftron.PDF.Annots.Widget widget = new pdftron.PDF.Annots.Widget(annot2);
+
+                    Field fld = widget.GetField();
+                    System.Diagnostics.Debug.WriteLine($"{fld.GetValueAsString()}");
+                }
+                // w.c
+
+            }
+            catch (PDFNetException e)
+            {
+
+            }
+
+
+        }
+
+        public void OnAnnotationsPreModify(IDictionary<pdftronprivate.PDF.Annot, Integer> annots)
+        {
+            System.Diagnostics.Debug.WriteLine("********");
+        }
+
+        public void OnAnnotationsPreRemove(IDictionary<pdftronprivate.PDF.Annot, Integer> annots)
+        {
+            System.Diagnostics.Debug.WriteLine("********");
+        }
+
+        public void OnAnnotationsRemoved(IDictionary<pdftronprivate.PDF.Annot, Integer> annots)
+        {
+            System.Diagnostics.Debug.WriteLine("********");
+        }
+
+        public void OnAnnotationsRemovedOnPage(int pageNum)
+        {
+            System.Diagnostics.Debug.WriteLine("********");
         }
     }
 }
